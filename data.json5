@@ -1,0 +1,106 @@
+{
+  // 页面title
+  title: "墨菲易",
+  // 社交链接
+  social: {
+    github: "https://github.com/zy8338719",
+//    twitter: "https://twitter.com/murphyyi",
+//    linkedin: "https://www.linkedin.com/in/%s/",
+  },
+  // banner页
+  banner: {
+    anchor: {
+      id: "banner",
+      icon: "home",
+      name: "首页",
+    },
+    title: "墨菲易",
+    desc: [
+      "北方汉子",
+//      "宝爸一颗",
+      "码农一枚",
+//      "花名林舍",
+      "工作一二载",
+    ],
+  },
+  // 正文
+  // 不要修改各模块的 anchor.id
+  // 通过display控制模块是否展示
+  // 通过列表顺序控制模块展示顺序
+  modules: [
+    // 关于页
+    {
+      display: true,
+      anchor: {
+        id: "about",
+        icon: "user",
+        name: "关于"
+      },
+      header: {
+        title: "information",
+        subtitle: "about me",
+      },
+      content: {
+        name: "张易",
+        desc: [
+          "爱德华·墨菲（Edward A. Murphy）",
+          "实践",
+          "对一切不可能提出挑战",
+          "提供简单、容易的实用解决方案"
+        ],
+        md: "鄙人张易，生于北京，纯北方汉子，苦读十二载，后求学于江苏~\
+        \n『**笃学明德、经世致用**』这是母校给予的八字真言，四年本科生涯, 良师益友收获颇多~,\
+        \n工作二三载，两域四地奔波，累哉累哉，自知其中快乐~",
+      },
+      //
+//      『**笃学明德、经世致用**』这是母校给予的八字真言，四年本科生涯、三年研究生涯，良师益友收获颇多~
+      //
+//      求学之际偶遇佳人，毕业之后终成正果，小窝一间、少爷一个，平平淡淡、快快乐乐~
+      //
+//      前有微波天线、后学电磁黑障，本非科班出身，出于热情投身猿类大军~\
+      // key - value 数量及内容完全自定义，链接自动识别
+      keys: {
+        "主页": "http://cv.murphyyi.com",
+        "博客": "https://blog.murphyyi.com",
+        "语雀博客": "https://www.yuque.com/murphyyi/blog",
+        //"公众号": "麻瓜的自我修养",
+        //"简历": "http://resume.murphyyi.com/#/info"
+      },
+    },
+    // 履历
+    {
+      display: true,
+      anchor: {
+        id: "experience",
+        icon: "idcard",
+        name: "经历"
+      },
+      header: {
+        title: "experience",
+        subtitle: "my experience",
+      },
+      cards: [
+        {
+          title: "江苏科技大学",
+          subtitle: "2015-09 至 2019-06",
+          md: "**<u>计算机科学与技术</u>**"
+        },
+      ],
+    },
+    // 博客页
+    {
+      display: false,
+      anchor: {
+        id: "blog",
+        icon: "profile",
+        name: "博客",
+      },
+      header: {
+        title: "blog",
+        subtitle: "latest blog",
+      },
+      blog: "https://segmentfault.com/blog/murphyyi",
+      rss: "https://segmentfault.com/feeds/blog/murphyyi",
+    },
+  ],
+}
