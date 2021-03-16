@@ -60,12 +60,13 @@
 //      前有微波天线、后学电磁黑障，本非科班出身，出于热情投身猿类大军~\
       // key - value 数量及内容完全自定义，链接自动识别
       keys: {
-        "主页": "http://cv.murphyyi.com",
-        "博客": "https://blog.murphyyi.com",
+        "主站(正在建设中)":"https://murphyyi.com",
+        "简介": "https://cv.murphyyi.com",
+        "技术站点": "https://blog.murphyyi.com",
         "语雀博客": "https://www.yuque.com/murphyyi/blog",
         "程序员工作导航": "https://ework.murphyyi.com",
         //"公众号": "麻瓜的自我修养",
-        "简历": "http://resume.murphyyi.com/readme"
+        "简历(正在奋笔疾书)": "http://resume.murphyyi.com/readme"
       },
     },
     // 履历
@@ -85,6 +86,11 @@
           title: "江苏科技大学",
           subtitle: "2015-09 至 2019-06",
           md: "**<u>计算机科学与技术</u>**"
+        },
+        {
+          title: "大搜车·北京搜车网 && 车易拍",
+          subtitle: "2018-11 至 2020-02",
+          md: "**<u>Java服务端研发</u>**"
         },
       ],
     },
