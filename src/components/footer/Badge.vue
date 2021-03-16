@@ -15,7 +15,7 @@
             <img alt="GitHub stars" src="https://img.shields.io/github/stars/zy84338719/cv">
         </a>
         <!-- fork -->
-        <a href="https://github.com/manerfan/vuesume/fork" target="_blank">
+        <a href="https://github.com/zy84338719/cv/fork" target="_blank">
             <img alt="GitHub forks" src="https://img.shields.io/github/forks/zy84338719/cv">
         </a>
         <!-- 下载 -->
