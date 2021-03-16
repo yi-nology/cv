@@ -1,7 +1,7 @@
 <!--
 MIT License
 
-Copyright (c) 2020 Maner·Fan
+Copyright (c) 2020 MurphyYi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -24,7 +24,7 @@ SOFTWARE.
 
 <template>
     <a :style="{color: color, 'font-size': size + 'em'}" href="https://github.com/zy84338719/index/master/LICENSE" target="_blank">
-        ©{{new Date().getFullYear()}} 墨菲易|Murphyyi.com All rights reserved
+        © 2014-{{new Date().getFullYear()}} 墨菲易|Murphyyi.com All rights reserved
     </a>
 </template>
 
