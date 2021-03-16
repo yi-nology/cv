@@ -41,7 +41,7 @@
         subtitle: "about me",
       },
       content: {
-        name: "张易",
+        name: "MurphyYi",
         desc: [
           "爱德华·墨菲（Edward A. Murphy）",
           "实践",
@@ -63,6 +63,7 @@
         "主页": "http://cv.murphyyi.com",
         "博客": "https://blog.murphyyi.com",
         "语雀博客": "https://www.yuque.com/murphyyi/blog",
+        "程序员工作导航": "https://ework.murphyyi.com",
         //"公众号": "麻瓜的自我修养",
         //"简历": "http://resume.murphyyi.com/#/info"
       },
