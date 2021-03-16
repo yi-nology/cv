@@ -21,7 +21,7 @@
                 <h1>{{banner.title || '墨菲易'}}</h1>
                 <h3 class="typer white">
                     鄙人，
-                    <vue-typer :text="banner.desc || '林舍'" :type-delay='200' eraseStyle='select-all'></vue-typer>
+                    <vue-typer :text="banner.desc || '墨菲'" :type-delay='200' eraseStyle='select-all'></vue-typer>
                 </h3>
             </div>
         </div>
