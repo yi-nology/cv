@@ -14,20 +14,27 @@ jobs:
           npm install yarn --registry=https://registry.npm.taobao.org
           yarn
           yarn build
-      - name: ssh
-        uses: fifsky/ssh-action@master
+      - name: web deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          command: |
-            rm -rf ${{ secrets.REMOTE_TARGET }}
-          host: ${{ secrets.REMOTE_HOST }}
-          user: root
-          key: ${{ secrets.SERVER_SSH_KEY}}
-      - name: Deploy stage
-        uses: easingthemes/ssh-deploy@v2.1.2
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
-          ARGS: "-rltgoDzvO"
-          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-          REMOTE_USER: ${{ secrets.REMOTE_USER }}
-          SOURCE: "docs"
-          TARGET: ${{ secrets.REMOTE_TARGET }}
+          github_token: ${{ secrets.ACCESS_TOKEN }}
+          publish_branch: master
+          publish_dir: ./docs
+          commit_message: auto deploy
+#       - name: ssh
+#         uses: fifsky/ssh-action@master
+#         with:
+#           command: |
+#             rm -rf ${{ secrets.REMOTE_TARGET }}
+#           host: ${{ secrets.REMOTE_HOST }}
+#           user: root
+#           key: ${{ secrets.SERVER_SSH_KEY}}
+#       - name: Deploy stage
+#         uses: easingthemes/ssh-deploy@v2.1.2
+#         env:
+#           SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
+#           ARGS: "-rltgoDzvO"
+#           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+#           REMOTE_USER: ${{ secrets.REMOTE_USER }}
+#           SOURCE: "docs"
+#           TARGET: ${{ secrets.REMOTE_TARGET }}
