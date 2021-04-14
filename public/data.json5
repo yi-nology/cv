@@ -17,10 +17,8 @@
     title: "墨菲易",
     desc: [
       "北方汉子",
-//      "宝爸一颗",
       "码农一枚",
-//      "花名林舍",
-      "工作二三载",
+      "工作二载",
     ],
   },
   // 正文
@@ -66,7 +64,7 @@
         "语雀博客": "https://www.yuque.com/murphyyi/blog",
         "程序员工作导航": "https://ework.murphyyi.com",
         //"公众号": "麻瓜的自我修养",
-        "简历(正在奋笔疾书)": "http://resume.murphyyi.com/readme"
+        "简历(正在奋笔疾书)": "http://resume.murphyyi.com/readme",
         "音乐站点":"https://music.murphyyi.com"
       },
     },
