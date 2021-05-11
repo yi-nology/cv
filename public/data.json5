@@ -64,7 +64,7 @@
         "语雀博客": "https://www.yuque.com/murphyyi/blog",
         "程序员工作导航": "https://ework.murphyyi.com",
         //"公众号": "麻瓜的自我修养",
-        "简历(正在奋笔疾书)": "http://resume.murphyyi.com/readme",
+        "简历(正在奋笔疾书)": "http://resume.murphyyi.com",
         "音乐站点":"https://music.murphyyi.com"
       },
     },
@@ -87,7 +87,12 @@
           md: "**<u>计算机科学与技术</u>**"
         },
         {
-          title: "大搜车·北京搜车网 && 车易拍",
+          title: "映客·积目",
+          subtitle: "2020-06 至 2021-04",
+          md: "**<u>Java服务端研发</u>**"
+        },
+        {
+          title: "大搜车·北京",
           subtitle: "2018-11 至 2020-02",
           md: "**<u>Java服务端研发</u>**"
         },
