@@ -71,7 +71,7 @@
             width: 100%;
             height: 100%;
             z-index: -1;
-            background: $--color-cyan url("../assets/bg_banner.jpg") no-repeat center center scroll;
+            background: $--color-cyan url("../assets/bg_banner.png") no-repeat center center scroll;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
