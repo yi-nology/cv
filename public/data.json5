@@ -18,7 +18,7 @@
     desc: [
       "北方汉子",
       "码农一枚",
-      "工作二载",
+      "工作二三载",
     ],
   },
   // 正文
@@ -64,7 +64,7 @@
         "语雀博客": "https://www.yuque.com/murphyyi/blog",
         "程序员工作导航": "https://ework.murphyyi.com",
         //"公众号": "麻瓜的自我修养",
-        "简历": "http://resume.murphyyi.com",
+        "个人简历": "http://resume.murphyyi.com",
         "音乐站点":"https://music.murphyyi.com"
       },
     },
@@ -85,6 +85,11 @@
           title: "江苏科技大学",
           subtitle: "2015-09 至 2019-06",
           md: "**<u>计算机科学与技术</u>**"
+        },
+        {
+          title: "滴滴出行",
+          subtitle: "2021-06 至 今",
+          md: "**<u>高级服务端研发</u>**"
         },
         {
           title: "映客·积目",
