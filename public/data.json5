@@ -62,7 +62,7 @@
         "简介": "https://cv.murphyyi.com",
         "技术站点": "https://blog.murphyyi.com",
         "语雀博客": "https://www.yuque.com/murphyyi/blog",
-        "程序员工作导航": "https://ework.murphyyi.com",
+        "程序员简易导航": "https://ework.murphyyi.com",
         //"公众号": "麻瓜的自我修养",
         "个人简历": "http://resume.murphyyi.com",
         "音乐站点":"https://music.murphyyi.com"
@@ -88,7 +88,7 @@
         },
         {
           title: "滴滴出行",
-          subtitle: "2021-06 至 今",
+          subtitle: "2021-06 至 2022-04",
           md: "**<u>高级服务端研发</u>**"
         },
         {
