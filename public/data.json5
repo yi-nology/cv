@@ -18,7 +18,7 @@
     desc: [
       "北方汉子",
       "码农一枚",
-      "工作二三载",
+      "工作三四载",
     ],
   },
   // 正文
@@ -58,13 +58,13 @@
 //      前有微波天线、后学电磁黑障，本非科班出身，出于热情投身猿类大军~\
       // key - value 数量及内容完全自定义，链接自动识别
       keys: {
-        "主站(正在建设中)":"https://murphyyi.com",
+        //"主站(正在建设中)":"https://murphyyi.com",
         "简介": "https://cv.murphyyi.com",
         "技术站点": "https://blog.murphyyi.com",
         "语雀博客": "https://www.yuque.com/murphyyi/blog",
         "程序员简易导航": "https://ework.murphyyi.com",
         //"公众号": "麻瓜的自我修养",
-        "个人简历": "http://resume.murphyyi.com",
+        "❤️墨菲易": "https://i.murphyyi.com",
         "音乐站点":"https://music.murphyyi.com"
       },
     },
@@ -85,6 +85,11 @@
           title: "江苏科技大学",
           subtitle: "2015-09 至 2019-06",
           md: "**<u>计算机科学与技术</u>**"
+        },
+         {
+          title: "集度汽车",
+          subtitle: "2022-06 至 今",
+          md: "**<u>高级服务端研发</u>**"
         },
         {
           title: "滴滴出行",
