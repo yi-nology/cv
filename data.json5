@@ -48,7 +48,7 @@
         ],
         md: "鄙人易少，生于北京，纯北方汉子，苦读十二载，后求学于江苏~\
         \n『**笃学明德、经世致用**』这是母校给予的八字真言，四年本科生涯, 良师益友收获颇多~,\
-        \n工作二三载，两域四地奔波，累哉累哉，自知其中快乐~",
+        \n工作三四载，两域四地奔波，累哉累哉，自知其中快乐~",
       },
       //
 //      『**笃学明德、经世致用**』这是母校给予的八字真言，四年本科生涯、三年研究生涯，良师益友收获颇多~
@@ -60,12 +60,13 @@
       keys: {
         //"主站(正在建设中)":"https://murphyyi.com",
         "简介": "https://cv.murphyyi.com",
-        "技术站点": "https://blog.murphyyi.com",
+        "技术站点": "https://old.blog.murphyyi.com",
         "语雀博客": "https://www.yuque.com/murphyyi/blog",
+        "导航": "https://nav.murphyyi.com",
         "程序员简易导航": "https://ework.murphyyi.com",
         //"公众号": "麻瓜的自我修养",
         "❤️墨菲易": "https://i.murphyyi.com",
-        "音乐站点":"https://music.murphyyi.com"
+        "音乐":"https://music.murphyyi.com"
       },
     },
     // 履历
@@ -99,12 +100,12 @@
         {
           title: "映客·积目",
           subtitle: "2020-06 至 2021-04",
-          md: "**<u>Go服务端研发</u>**"
+          md: "**<u>初级Go服务端研发</u>**"
         },
         {
           title: "大搜车·北京",
           subtitle: "2018-11 至 2020-02",
-          md: "**<u>Java服务端研发</u>**"
+          md: "**<u>初级Java服务端研发</u>**"
         },
       ],
     },
