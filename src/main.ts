@@ -41,6 +41,7 @@ Vue.use(VueMarkdown);
 
 store.dispatch('init');
 router.beforeEach((to, from, next) => {
+    // @ts-ignore
     document.title = store.getters.title + (to.meta.title ? ' - ' + to.meta.title : '');
     next();
 });
