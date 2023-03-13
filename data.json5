@@ -1,127 +1,105 @@
 {
-  // 页面title
-  title: "墨菲易",
-  // 社交链接
+  title: '墨菲易',
   social: {
-    github: "https://github.com/zy84338719",
-//    twitter: "https://twitter.com/murphyyi",
-//    linkedin: "https://www.linkedin.com/in/%s/",
+    github: 'https://github.com/zy84338719',
   },
-  // banner页
   banner: {
     anchor: {
-      id: "banner",
-      icon: "home",
-      name: "首页",
+      id: 'banner',
+      icon: 'home',
+      name: '首页',
     },
-    title: "墨菲易",
+    title: '墨菲易',
     desc: [
-      "北方汉子",
-      "码农一枚",
-      "工作三四载",
+      '北方汉子',
+      '码农一枚',
+      '工作三四载',
     ],
   },
-  // 正文
-  // 不要修改各模块的 anchor.id
-  // 通过display控制模块是否展示
-  // 通过列表顺序控制模块展示顺序
   modules: [
-    // 关于页
     {
       display: true,
       anchor: {
-        id: "about",
-        icon: "user",
-        name: "关于"
+        id: 'about',
+        icon: 'user',
+        name: '关于',
       },
       header: {
-        title: "information",
-        subtitle: "about me",
+        title: 'information',
+        subtitle: 'about me',
       },
       content: {
-        name: "MurphyYi",
+        name: 'MurphyYi',
         desc: [
-          "爱德华·墨菲（Edward A. Murphy）",
-          "实践",
-          "挑战",
-          "一切不可能"
+          '爱德华·墨菲（Edward A. Murphy）',
+          '实践',
+          '挑战',
+          '一切不可能',
         ],
-        md: "鄙人易少，生于北京，纯北方汉子，苦读十二载，后求学于江苏~\
-        \n『**笃学明德、经世致用**』这是母校给予的八字真言，四年本科生涯, 良师益友收获颇多~,\
-        \n工作二三载，两域四地奔波，累哉累哉，自知其中快乐~",
+        md: '鄙人易少，生于北京，纯北方汉子，苦读十二载，后求学于江苏~        \n『**笃学明德、经世致用**』这是母校给予的八字真言，四年本科生涯, 良师益友收获颇多~,        \n工作三四载，两域四地奔波，累哉累哉，自知其中快乐~',
       },
-      //
-//      『**笃学明德、经世致用**』这是母校给予的八字真言，四年本科生涯、三年研究生涯，良师益友收获颇多~
-      //
-//      求学之际偶遇佳人，毕业之后终成正果，小窝一间、少爷一个，平平淡淡、快快乐乐~
-      //
-//      前有微波天线、后学电磁黑障，本非科班出身，出于热情投身猿类大军~\
-      // key - value 数量及内容完全自定义，链接自动识别
       keys: {
-        //"主站(正在建设中)":"https://murphyyi.com",
-        "简介": "https://cv.murphyyi.com",
-        "技术站点": "https://blog.murphyyi.com",
-        "语雀博客": "https://www.yuque.com/murphyyi/blog",
-        "程序员简易导航": "https://ework.murphyyi.com",
-        //"公众号": "麻瓜的自我修养",
-        "❤️墨菲易": "https://i.murphyyi.com",
-        "音乐站点":"https://music.murphyyi.com"
+        简历: 'https://resume.murphyyi.com',
+        技术站点: 'https://old.blog.murphyyi.com',
+        语雀博客: 'https://www.yuque.com/murphyyi/blog',
+        导航: 'https://nav.murphyyi.com',
+        程序员简易导航: 'https://ework.murphyyi.com',
+        '❤️墨菲易': 'https://i.murphyyi.com',
+        音乐: 'https://music.murphyyi.com',
       },
     },
-    // 履历
     {
       display: true,
       anchor: {
-        id: "experience",
-        icon: "idcard",
-        name: "经历"
+        id: 'experience',
+        icon: 'idcard',
+        name: '经历',
       },
       header: {
-        title: "experience",
-        subtitle: "my experience",
+        title: 'experience',
+        subtitle: 'my experience',
       },
       cards: [
         {
-          title: "江苏科技大学",
-          subtitle: "2015-09 至 2019-06",
-          md: "**<u>计算机科学与技术</u>**"
-        },
-         {
-          title: "集度汽车",
-          subtitle: "2022-06 至 今",
-          md: "**<u>高级服务端研发</u>**"
+          title: '集度汽车(百度🚗)',
+          subtitle: '2022-06 至 今',
+          md: '**<u>高级GO服务端研发</u>**           \n集度是新一代智能汽车品牌，全栈应用百度AI能力        \n2022年6月8日，集度正式发布了首款汽车机器人概念车JIDU ROBO-01。',
         },
         {
-          title: "滴滴出行",
-          subtitle: "2021-06 至 2022-04",
-          md: "**<u>高级服务端研发</u>**"
+          title: '滴滴出行',
+          subtitle: '2021-06 至 2022-04',
+          md: '**<u>高级GO服务端研发</u>**          \n滴滴出行是涵盖出租车、专车、滴滴快车、顺风车、代驾及大巴、货运       \n等多项业务在内的一站式出行平台，滴滴2021年总营收为1738.3亿元，',
         },
         {
-          title: "映客·积目",
-          subtitle: "2020-06 至 2021-04",
-          md: "**<u>Go服务端研发</u>**"
+          title: '映客·积目',
+          subtitle: '2020-06 至 2021-04',
+          md: "**<u>初级GO服务端研发</u>**          \n 映客直播，移动端直播平台。2016年6月17日，腾讯应用宝发布星APP5月榜，映客直播成功上榜；    \n11月，映客直播荣登2016中国泛娱乐指数盛典'中国文娱创新企业榜 TOP30'。\n2018年7月12日，映客正式在港交所挂牌交易。成为港交所娱乐直播第一股。",
         },
         {
-          title: "大搜车·北京",
-          subtitle: "2018-11 至 2020-02",
-          md: "**<u>Java服务端研发</u>**"
+          title: '大搜车·北京',
+          subtitle: '2018-11 至 2020-02',
+          md: '**<u>初级Java服务端研发</u>**          \n 汽车产业互联网平台大搜车由姚军红先生于2012年12月创立，          \n先后获得阿里巴巴集团、蚂蚁金服、晨兴资本、华平投资、春华          \n资本等机构超过12亿美元融资。2017年12月，大搜车进入由硅谷全球数据研究机构\n PitchBook评选的“2017年全球新晋独角兽”名单 ',
+        },
+        {
+          title: '江苏科技大学',
+          subtitle: '2015-09 至 2019-06',
+          md: '**<u>计算机科学与技术</u>** \n 学分绩点 2.93/4.0 (79/100)  年级前40%  \n 2018年获得江苏省大学生创新创业大赛三等奖 \n学渣一枚，超级渣，一心没在学习上的学渣',
         },
       ],
     },
-    // 博客页
     {
       display: false,
       anchor: {
-        id: "blog",
-        icon: "profile",
-        name: "博客",
+        id: 'blog',
+        icon: 'profile',
+        name: '博客',
       },
       header: {
-        title: "blog",
-        subtitle: "latest blog",
+        title: 'blog',
+        subtitle: 'latest blog',
       },
-      blog: "https://segmentfault.com/blog/murphyyi",
-      rss: "https://segmentfault.com/feeds/blog/murphyyi",
+      blog: 'https://segmentfault.com/blog/murphyyi',
+      rss: 'https://segmentfault.com/feeds/blog/murphyyi',
     },
   ],
 }
